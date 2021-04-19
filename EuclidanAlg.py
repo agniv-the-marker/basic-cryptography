@@ -1,7 +1,7 @@
 def gcd(a, b):
     if a > b:
         while b:
-            a, b = b, firstNum % b
+            a, b = b, a % b
         return a
     else:
         while a:
