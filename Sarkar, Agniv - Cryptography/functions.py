@@ -1,5 +1,3 @@
-"""Functions we will continue to use in future assignments."""
-
 from collections import Counter as counter
 
 def block_encode(message: str, block_size: int = 1) -> list[int]:
